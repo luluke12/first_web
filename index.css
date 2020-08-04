@@ -1,0 +1,15 @@
+.header {
+    height: 100px;
+}
+.header__logo {
+    height: 100px;
+}
+.header__nav {
+    height: 100px;
+}
+.header__nav-item {
+    height: 100px;
+}
+.header__nav-item_status_active{
+    height: 100px;
+}
