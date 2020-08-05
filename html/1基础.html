@@ -6,6 +6,154 @@
     <title>html基础</title>
 </head>
 <body>
-    
+    <div class="header">
+        <h1>没有css的第一个网页</h1><hr>
+    </div>
+    <div class="content">
+        <div class="content__jichu">
+            <h1>一 基本结构</h1>
+            <div class="content__jichu-item">
+                <h2>
+                   1 这就是html的基本结构  
+                </h2>
+                <img src="img/1.基础.png" alt="加载出错">
+                <img src="img/1.png" alt="加载出错">
+                <h2>2 &lt!--这里写注释--&gt</h2>
+            </div>
+        </div>
+        <hr>
+        <div class="content__wendang">
+            <h1>二 文档</h1>
+            <div class="content__wendang-item">
+                <!--!DOCTYPE-->
+                <h2>1 &lt!DOCTYPE HTML&gt不属于html标签，它用于定义文档类型</h2>
+
+                <!--标题标签-->
+                <h2>2 h1到h6标题标签</h2>
+
+                <!--段落标签-->
+                <h2>3 段落标签&lt;p&gt; &lt;/p&gt;</h2>
+                <span> 
+                &nbsp;align对齐属性值<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;left right <br>  
+                    &nbsp;&nbsp;&nbsp;&nbsp;center justify
+                </span>
+
+                <!--换行标签-->
+                <h2>4 &lt;br/&gt;换行标签</h2>
+
+                <!--pre-->
+                <h2>5 预格式化标签&ltpre&gt &lt;/pre&gt;</h2>
+                <pre>
+                    weiewhoqirq
+                    qweruhqore
+                    wqrqw
+                    wq  qwrqw
+                     9+8=17
+                </pre>
+
+                <!--hr标签-->
+                <h2>6 下划线标签&lt;hr/&gt;</h2>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span>你娃很违和啊</span>
+                <hr>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span>weuhuew</span>
+
+                <!--修饰符特殊符号-->
+                <h2>7 修饰标签和特殊符号</h2>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span>文字斜体:&lt;i&gt;&lt;/i&gt;、&lt;em&gt;&lt;/em&gt;&nbsp;我是<i>斜体i</i>，我是<em>斜体em</em></span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span>加粗:&lt;b&gt;&lt;/b&gt;、&lt;strong&gt;&lt;/strong&gt;我是<b>加粗b</b>，我是<strong>加粗strong</strong></span><br>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span>下标:&lt;sub&gt;&lt;/sub&gt;我是<sub>下标sub</sub></span>
+                &nbsp;&nbsp;&nbsp;&nbsp;<span>上标:&lt;sup&gt;&lt;/sup&gt;我是<sup>上标sup</sup></span><br>
+                <img src="img/2.png" alt="加载出错">
+            </div>
+        </div>
+        <hr>
+        <br>
+        <div class="content__liebiao">
+            <h1>二 列表标签</h1>
+            <div class="content__liebiao-item">
+                <!--无序ul li-->
+                <h2>1 无序列表</h2>
+                <span>&lt;ul&gt;
+                    &lt;li&gt; &lt;li&gt;
+                    &lt;ul&gt;
+                </span>
+                <p>ul type属性：disc square circle</p>
+                <h3>例：</h3>
+                <br>
+                <ul  >
+                    <li>html 指的是超文本标记语言</li>
+                    <li>html 不是一种编程语言 ，而是一种标记语言</li>
+                    <li>html 使用标记标签来描述网页</li>
+                </ul>
+                <ul type="disc">
+                    <li>html 指的是超文本标记语言</li>
+                    <li>html 不是一种编程语言 ，而是一种标记语言</li>
+                    <li>html 使用标记标签来描述网页</li>
+                </ul>                
+                <ul type="square">
+                    <li>html 指的是超文本标记语言</li>
+                    <li>html 不是一种编程语言 ，而是一种标记语言</li>
+                    <li>html 使用标记标签来描述网页</li>
+                </ul>                
+                <ul type="circle">
+                    <li>html 指的是超文本标记语言</li>
+                    <li>html 不是一种编程语言 ，而是一种标记语言</li>
+                    <li>html 使用标记标签来描述网页</li>
+                </ul>
+                <!--有序列表ol-->
+                <h2>2 有序列表ol</h2>
+                <span>ol 和li 表示</span>
+                <p>ol的type 属性值1 a A i I</p>
+                <!--定义 列表dl-->
+                <h2>3 定义列表</h2>
+                <span>&lt;dl&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;dt&gt;定义列表项&lt;/dt&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;dd&gt;列表项描述&lt;/dd&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;dd&gt;列表项描述&lt;/dd&gt;<br>                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;dt&gt;定义列表项&lt;/dt&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;dd&gt;列表项描述&lt;/dd&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&lt;dd&gt;列表项描述&lt;/dd&gt;<br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;... <br>
+                    &lt;/dl&gt;
+
+                </span>
+            </div>
+        </div>
+        <hr>
+        <div class="content__tuxiang">
+            <!--图像和超链接-->
+            <h1>三 图像和超链接</h1>
+            <div class="content__tuxiang-item">
+                <!---1 图像img-->
+                <h2>1 图像img标签</h2>
+                <img src="img/3.png" alt="加载出错">
+                <p>绝对路径和相对路径要分清</p>
+                <!--链接 a 标签-->
+                <h2>2 链接 a 标签</h2>
+                <img src="img/4.png" alt="你好啊" width="1000px" height="400px">
+                <p><a href="https://www.imooc.com/">慕课网</a>
+                    <a href="http://www.baidu.com"><img src="" alt="konde"></a>
+                </p>
+                <!--连接属性-->
+                <h2>3 连接属性</h2>
+                    <a href="#"><span>空连接设置href="#"</span></a><br><br>
+                    <h3>超链接属性</h3>
+                <img src="img/5.png" alt="">
+                <!--锚链接/书签-->
+                <h2>4 锚链接</h2>
+                <img src="img/6.png" alt="">
+                <img src="img/7.png" alt="">
+                <!--扩展-->
+                <h2>5 扩展 邮箱和文件下载</h2>
+                <img src="img/8.png" alt="">
+                <img src="img/9.png" alt="">
+                <ol type="1">
+                    <li>下载文件要压缩</li>
+                    <li>直接写下载的文件名会打开文件</li>
+                </ol>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
